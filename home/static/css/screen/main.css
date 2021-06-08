@@ -1,0 +1,131 @@
+main {
+    background-color: #ff6470;
+    background-image: url("{% static 'img/background.png' %});
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 40px;
+    padding-bottom: 0px;
+}
+
+.main-screen__slogan h2, h1 {
+    color: rgb(235, 235, 235);
+    font-family: "s-core-dream-extrabold", sans-serif !important;
+}
+
+.main-screen__title__container h1 {
+    font-size: 100px;
+    font-weight: 800;
+    margin-top: 160px;
+    margin-bottom: 250px;
+    position: relative;
+    display: block;
+    transform: translateY(120px);
+    animation: up 1.8s linear forwards;
+
+}
+
+@keyframes up {
+    0% {
+        color: #ff6470;
+    }
+
+    50% {
+        color: #ff6470;
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.main-screen__intro h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 180%;
+    padding: 0 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "s-core-dream-extrabold", sans-serif !important;
+    margin-bottom: 20px;
+}
+
+.main-screen__intro p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 180%;
+    padding: 0 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "s-core-dream-medium", sans-serif !important;
+}
+
+@keyframes typing{
+    from{width: 0ch;}
+}
+
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+
+.main-screen__slogan h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 17ch;
+    overflow: hidden; 
+    white-space: nowrap;
+    border-right: .05em solid rgba(235, 235, 235, 0.4);
+    animation: typing 1.3s steps(17),
+    cursor 1s steps(1) infinite;
+}
+
+.main-screen__value {
+    margin-top: 120px;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main-screen__value .value img{
+    width: 33%;
+}
+
+.main-screen__value__title {
+    margin-bottom: 40px;
+}
+.main-screen__value h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 180%;
+    padding: 0 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "s-core-dream-extrabold", sans-serif !important;
+}
+
+.main-screen__value p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+    padding: 0 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "s-core-dream-medium", sans-serif !important;
+}
+
+.main-screen__value .value h2 {
+    font-size: 30px;
+    margin: 40px 0;
+}

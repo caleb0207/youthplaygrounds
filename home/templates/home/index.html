@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static 'css/reset.css' %}>
+    <link rel="stylesheet" href={% static 'css/styles.css' %}>
+    <title>청년놀이터</title>
+</head>
+<body>
+    <!-- upper-bar -->
+    <nav class="upper-bar">
+      <div class="upper-bar__logo">
+          <img src={% static 'img/logo.png' %} alt="청년놀이터 로고 입니다.">
+      </div>
+      <div class="upper-bar__name">
+          <img src={% static 'img/banner.png' %} alt="청년놀이터 배너" height="70" width="350">
+      </div>
+      <div class="upper-bar__menu">
+        <input type="checkbox" class="drop-checkbox" id="drop-input">
+        <label for="drop-input" class="drop-list"><i class="fas fa-bars fa-4x"></i></label>
+        <ul class="upper-bar__menu__list">
+          <li><a href="index.html">청년놀이터란</a></li>
+          <li><a href="people.html">사람들</a></li>
+          <li><a href="business.html">사업소개</a></li>
+          <li><a href="history.html">우리가 걸어온 길</a></li>
+          <li><a href="">게시판</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- main-screen-->
+    <main>
+      <!-- title-->
+      <section class="main-screen main-screen__slogan">
+        <h2>다 함께 만드는 놀이문화</h2>
+        <div class="main-screen__title__container">
+          <h1>청년놀이터</h1>
+        </div>
+      </section>
+      <!-- introduce-->
+      <section class="main-screen main-screen__intro">
+        <h1>청년놀이터는</h1>
+        <p>청년들이 스스로 자신들의 놀이문화를 만들고 즐기기 위해 만들어진 조직입니다.</p></br>
+        <p>높아지는 취업 문턱과 갈수록 어려워지는 경제 상황, 점점 마음의 여유가 없어지는 상황 속에서 청년놀이터는 청년들이 맘 편히 놀고 자발적으로 놀이문화를 만들고 협동하며 재미있게 시간을 보내는 것을 모토로 삼고 있습니다. 
+        </br></br>
+        청년놀이터는 항상 열려있으며 청년들의 참여를 기다리고 있습니다. 이 글을 읽고 있는 여러분, 청년놀이터와 같이 놀아봐요!
+        </p>
+      </section>
+      <!-- value -->
+      <section class="main-screen main-screen__value">
+        <div class="main-screen__value__title">
+          <h2>청년놀이터가 지향하는 가치</h2>
+        </div>
+        <div class="value value1">
+            <img src={% static 'img/freedom.svg' %} alt="끊어진 쇠사슬 그림">
+          <h2>자유로운 삶</h2>
+          <p>돈 없고 시간없는 지금의 현실에서 숨통 트이는 삶을 살고 싶은, </br>
+            조금 더 자유롭고 싶은 청년들이 모여 청년놀이터가 출발하였습니다.</p>
+        </div>
+        <div class="value value2">
+            <img src={% static 'img/society.svg' %} alt="웃고 떠드는 사람들">
+          <h2>활동사회</h2>
+          <p>활동사회란 생계걱정 없이 자신이 하고 싶은 활동을 하는 사회입니다. </br> 
+            우리가 하고 싶은 활동을 하는 ‘소소한 사람들’이고 싶습니다.</p>
+        </div>
+        <div class="value value3">
+            <img src={% static 'img/play1.svg' %} alt="시소 그림">
+          <h2>놀이</h2>
+          <p>자유로운 삶이란 노는 것을 고민하는 삶입니다. </br> 
+            자신이 하고 싶은 활동이 곧 놀이입니다. </br> 
+            우리는 놀이를 함께 만들고 서로에게 나누려고 합니다. </p>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="down-bar">
+      <div class="down-bar__info">
+        <span>청년놀이터</span> <span>  |  </span>
+        <span>대표 : 김호준</span> <span>  |  </span>
+        <span>사업자등록번호 : 501-82-67209</span>
+        <p>주소 : 충청북도 청주시 서원구 1순환로709번길 8</p>
+      </div>
+      <div class="down-bar__sns">
+        <a href="https://www.facebook.com/youthplayground/">
+          <i class="fab fa-facebook-square fa-2x"> | 페이스북</i>
+        </a>
+        <a href="https://www.instagram.com/youthplayground/">
+          <i class="fab fa-instagram fa-2x"> | 인스타그램</i>
+        </a>
+        <a href="mailto:youthplayground@gmail.com">
+          <i class="fas fa-envelope-square fa-2x"> | 이메일</i>
+        </a>
+    </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/80306a7340.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

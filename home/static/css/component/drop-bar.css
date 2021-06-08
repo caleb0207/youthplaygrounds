@@ -1,0 +1,38 @@
+.drop-checkbox {
+  display: none;
+}
+
+.drop-list {
+  cursor: pointer;
+  display: block;
+}
+
+.upper-bar__menu__list {
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.5s;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #313131;
+  opacity: 0.9;
+}
+
+.upper-bar__menu__list li {
+  font-family: "s-core-dream-medium", sans-serif !important;
+  color: aliceblue;
+  font-size: 30px;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.upper-bar__menu__list li:hover {
+  color: #ff6470;
+}
+
+.drop-checkbox:checked + .drop-list + .upper-bar__menu__list {
+  max-height: 100%;
+}
+

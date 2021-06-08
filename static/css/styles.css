@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("S-Core-Dream-light/s-core-dream.css");
+
+@import "reset.css";
+
+/*component */
+@import "component/menu-bar.css";
+@import "component/footer.css";
+@import "component/drop-bar.css";
+/*screen*/
+@import "screen/main.css";
+@import "screen/people.css";
+@import "screen/business.css";
+
+
+
+
+body {
+    font-family: 's-core-dream-regular', sans-serif !important;
+    color: #2e363e;
+}

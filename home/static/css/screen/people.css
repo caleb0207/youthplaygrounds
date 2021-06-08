@@ -1,0 +1,27 @@
+.introduce{
+    display: flex; 
+}
+
+.introduce__people {
+    display: flex;
+    margin: 80px 30px;
+}
+
+.introduce__sub h1{
+    margin-left: 20px;
+    font-size: 40px;
+    line-height: 180%;
+    padding: 0 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "s-core-dream-extrabold", sans-serif !important;
+}
+
+.introduce__sub p {
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgb(245, 245, 245);
+    line-height: 120%;
+    text-align: center;
+    font-family: "s-core-dream-medium", sans-serif !important;
+}
